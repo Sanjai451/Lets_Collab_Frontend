@@ -45,3 +45,12 @@ h3{
   font-size: 20px;
   font-weight: 400;
 }
+
+@media (max-width: 900px) {
+  ._custom_image {
+    display: none;
+  }
+  .home_top_image{
+    display: block;
+  }
+}
