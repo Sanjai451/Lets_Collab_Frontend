@@ -15,7 +15,7 @@ const DrawingPage = () => {
 
   return (
     <div className="draw_component" style={{ width: "100%", height: "100%" }}>
-    <Tldraw store={store} />
+    <Tldraw />
   </div>
   );
 };
